@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA2608842125CB7D00461AD5 /* OINPEmployerJobOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2608832125CB7D00461AD5 /* OINPEmployerJobOfferViewController.swift */; };
+		EA2608872125CDA900461AD5 /* OINPEJOAboutandRequirementstoQualifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2608862125CDA900461AD5 /* OINPEJOAboutandRequirementstoQualifyViewController.swift */; };
+		EA2608892125D3AB00461AD5 /* OINPEJOEducationalRequirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2608882125D3AB00461AD5 /* OINPEJOEducationalRequirementViewController.swift */; };
+		EA26088B2125D47800461AD5 /* OINPEJOEligibleCanadianInstitutionsWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26088A2125D47800461AD5 /* OINPEJOEligibleCanadianInstitutionsWebViewViewController.swift */; };
+		EA26088D2125DCF600461AD5 /* OINPEJORequirementsMetbyOntarioEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26088C2125DCF600461AD5 /* OINPEJORequirementsMetbyOntarioEmployerViewController.swift */; };
+		EA26088F2125DF8B00461AD5 /* OINPEJOIntentiontoResideInOntarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26088E2125DF8B00461AD5 /* OINPEJOIntentiontoResideInOntarioViewController.swift */; };
+		EA2608912125E6CF00461AD5 /* OINPEJOProcessingTimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2608902125E6CF00461AD5 /* OINPEJOProcessingTimesViewController.swift */; };
+		EA2608932125E83300461AD5 /* OINPEJODocumentChecklisttoFileAnApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2608922125E83300461AD5 /* OINPEJODocumentChecklisttoFileAnApplicationViewController.swift */; };
+		EA2608952125EAA400461AD5 /* OINPEJOCheckingApplicationStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2608942125EAA400461AD5 /* OINPEJOCheckingApplicationStatusViewController.swift */; };
+		EA2608972125EF2300461AD5 /* OINPEJORegisteringAndSubmittingAnApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2608962125EF2300461AD5 /* OINPEJORegisteringAndSubmittingAnApplicationViewController.swift */; };
+		EA3B9A4E2122819200C5B8A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A4D2122819200C5B8A6 /* AppDelegate.swift */; };
+		EA3B9A502122819200C5B8A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A4F2122819200C5B8A6 /* ViewController.swift */; };
+		EA3B9A532122819200C5B8A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B9A512122819200C5B8A6 /* Main.storyboard */; };
+		EA3B9A552122819300C5B8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3B9A542122819300C5B8A6 /* Assets.xcassets */; };
+		EA3B9A582122819300C5B8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B9A562122819300C5B8A6 /* LaunchScreen.storyboard */; };
+		EA3B9A822123AD8000C5B8A6 /* OINPMastersGraduateStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A812123AD8000C5B8A6 /* OINPMastersGraduateStreamViewController.swift */; };
+		EA3B9A842123B60900C5B8A6 /* OINPMastersGraduateStreamAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A832123B60900C5B8A6 /* OINPMastersGraduateStreamAboutViewController.swift */; };
+		EA3B9A862123C88B00C5B8A6 /* OINPMasterGraduateStreamDocumentChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A852123C88B00C5B8A6 /* OINPMasterGraduateStreamDocumentChecklistViewController.swift */; };
+		EA3B9A892123CB6D00C5B8A6 /* OINPMastersGraduateStreamRegisteringandSubmittingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A882123CB6D00C5B8A6 /* OINPMastersGraduateStreamRegisteringandSubmittingViewController.swift */; };
+		EA3B9A8F2123D8C100C5B8A6 /* OINPMGSProcessingTimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A8E2123D8C100C5B8A6 /* OINPMGSProcessingTimesViewController.swift */; };
+		EA3B9A912123EC3F00C5B8A6 /* OINPMGSCheckingApplicationStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A902123EC3F00C5B8A6 /* OINPMGSCheckingApplicationStatusViewController.swift */; };
+		EA3B9A932123EEFD00C5B8A6 /* OINPMGSDocumentChecklistWebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A922123EEFD00C5B8A6 /* OINPMGSDocumentChecklistWebviewViewController.swift */; };
+		EA3B9A952124819900C5B8A6 /* OINPMGSEducationalRequirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A942124819900C5B8A6 /* OINPMGSEducationalRequirementViewController.swift */; };
+		EA3B9A97212481E500C5B8A6 /* OINPMGSEligibleOntarioInstitutionsWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A96212481E500C5B8A6 /* OINPMGSEligibleOntarioInstitutionsWebViewViewController.swift */; };
+		EA3B9A992124873900C5B8A6 /* OINPMGSLanguageRequirementMinimumScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A982124873900C5B8A6 /* OINPMGSLanguageRequirementMinimumScoresViewController.swift */; };
+		EA3B9A9B2124898E00C5B8A6 /* OINPMGSResidencyOntarioandSettlementofFundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A9A2124898E00C5B8A6 /* OINPMGSResidencyOntarioandSettlementofFundsViewController.swift */; };
+		EA3B9A9D212489F800C5B8A6 /* OINPMGSSettlementofFundsWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A9C212489F800C5B8A6 /* OINPMGSSettlementofFundsWebViewViewController.swift */; };
+		EA3B9A9F2124A30900C5B8A6 /* OINPMGSRegisteringandSubmittingAnApplicationWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9A9E2124A30900C5B8A6 /* OINPMGSRegisteringandSubmittingAnApplicationWebViewViewController.swift */; };
+		EA3B9AA12124A38200C5B8A6 /* OINPMGSCheckOINPUpdatesWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9AA02124A38200C5B8A6 /* OINPMGSCheckOINPUpdatesWebViewViewController.swift */; };
+		EA3B9AA32124A3F400C5B8A6 /* OINPMGSOneKeyLoginToUpdateAndSubmitDocsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9AA22124A3F400C5B8A6 /* OINPMGSOneKeyLoginToUpdateAndSubmitDocsViewController.swift */; };
+		EA3B9AA52124A46A00C5B8A6 /* OINPMGSRegisteringforMastersGraduateStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B9AA42124A46A00C5B8A6 /* OINPMGSRegisteringforMastersGraduateStreamViewController.swift */; };
+		EAAA709C212DCA11009AE681 /* OINPEJOProcedureToRegisterAndSubmitAnApplicationWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA709B212DCA11009AE681 /* OINPEJOProcedureToRegisterAndSubmitAnApplicationWebsiteViewController.swift */; };
+		EAAA709E212DCD06009AE681 /* CanadianExperienceClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA709D212DCD06009AE681 /* CanadianExperienceClassViewController.swift */; };
+		EAAA70A1212DD4F2009AE681 /* CECAboutAndRequirementsToQualifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70A0212DD4F2009AE681 /* CECAboutAndRequirementsToQualifyViewController.swift */; };
+		EAAA70A3212DD5D1009AE681 /* CECWorkExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70A2212DD5D1009AE681 /* CECWorkExperienceViewController.swift */; };
+		EAAA70A7212DDB1B009AE681 /* CECWorkExperienceWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70A6212DDB1B009AE681 /* CECWorkExperienceWebsiteViewController.swift */; };
+		EAAA70A9212DDE6F009AE681 /* CECLanguageRequirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70A8212DDE6F009AE681 /* CECLanguageRequirementViewController.swift */; };
+		EAAA70AB212E4026009AE681 /* CECLanguageRequirementWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70AA212E4026009AE681 /* CECLanguageRequirementWebsiteViewController.swift */; };
+		EAAA70AD212E75A1009AE681 /* CECEREducationCredentialAssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70AC212E75A1009AE681 /* CECEREducationCredentialAssessmentViewController.swift */; };
+		EAAA70AF212F0A1A009AE681 /* CECPrincipalApplicantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70AE212F0A1A009AE681 /* CECPrincipalApplicantViewController.swift */; };
+		EAAA70B1212F19D3009AE681 /* CECAboutAndRequirementsToQualifyOtherRequirementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70B0212F19D3009AE681 /* CECAboutAndRequirementsToQualifyOtherRequirementsViewController.swift */; };
+		EAAA70B3212F1BDC009AE681 /* CECOtherRequirementsWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70B2212F1BDC009AE681 /* CECOtherRequirementsWebsiteViewController.swift */; };
+		EAAA70B5212F2BFF009AE681 /* CECDocumentChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70B4212F2BFF009AE681 /* CECDocumentChecklistViewController.swift */; };
+		EAAA70B7212F2FC8009AE681 /* CECSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70B6212F2FC8009AE681 /* CECSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift */; };
+		EAAA70B9212F317A009AE681 /* CECProcessingTimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70B8212F317A009AE681 /* CECProcessingTimesViewController.swift */; };
+		EAAA70BB212F6EFF009AE681 /* FederalSkilledWorkerProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70BA212F6EFF009AE681 /* FederalSkilledWorkerProgramViewController.swift */; };
+		EAAA70BE212F73BA009AE681 /* FSWRequirementsToQualifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70BD212F73BA009AE681 /* FSWRequirementsToQualifyViewController.swift */; };
+		EAAA70C0212F7738009AE681 /* FSWSkilledWorkExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70BF212F7738009AE681 /* FSWSkilledWorkExperienceViewController.swift */; };
+		EAAA70C2212F77B4009AE681 /* FSWSkilledWorkExperienceWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70C1212F77B4009AE681 /* FSWSkilledWorkExperienceWebsiteViewController.swift */; };
+		EAAA70C4212F7A78009AE681 /* FSWLanguageRequirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70C3212F7A78009AE681 /* FSWLanguageRequirementViewController.swift */; };
+		EAAA70C6212F7BB6009AE681 /* FSWLanguageRequirementWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70C5212F7BB6009AE681 /* FSWLanguageRequirementWebsiteViewController.swift */; };
+		EAAA70C8212F7D61009AE681 /* FSWEducationRequirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70C7212F7D61009AE681 /* FSWEducationRequirementViewController.swift */; };
+		EAAA70CA212F7EAB009AE681 /* FSWEducationRequirementWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70C9212F7EAB009AE681 /* FSWEducationRequirementWebsiteViewController.swift */; };
+		EAAA70CC212F7FE1009AE681 /* FSWSelectionFactorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70CB212F7FE1009AE681 /* FSWSelectionFactorsViewController.swift */; };
+		EAAA70CE212F83DF009AE681 /* FSWPrincipalApplicantWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70CD212F83DF009AE681 /* FSWPrincipalApplicantWebsiteViewController.swift */; };
+		EAAA70D0212F8516009AE681 /* FSWProofOfFundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70CF212F8516009AE681 /* FSWProofOfFundsViewController.swift */; };
+		EAAA70D2212F86D0009AE681 /* FSWDocumentChecklistToFileAnApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70D1212F86D0009AE681 /* FSWDocumentChecklistToFileAnApplicationViewController.swift */; };
+		EAAA70D4212F8829009AE681 /* FSWSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70D3212F8829009AE681 /* FSWSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift */; };
+		EAAA70D6212F891A009AE681 /* FSWApplicationProcessingTimesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA70D5212F891A009AE681 /* FSWApplicationProcessingTimesViewController.swift */; };
+		EAAB25B2212DB3C70084AE0E /* OINPEJOLegalStatusOfApplicantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB25B1212DB3C70084AE0E /* OINPEJOLegalStatusOfApplicantViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA2608832125CB7D00461AD5 /* OINPEmployerJobOfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEmployerJobOfferViewController.swift; sourceTree = "<group>"; };
+		EA2608862125CDA900461AD5 /* OINPEJOAboutandRequirementstoQualifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJOAboutandRequirementstoQualifyViewController.swift; sourceTree = "<group>"; };
+		EA2608882125D3AB00461AD5 /* OINPEJOEducationalRequirementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJOEducationalRequirementViewController.swift; sourceTree = "<group>"; };
+		EA26088A2125D47800461AD5 /* OINPEJOEligibleCanadianInstitutionsWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJOEligibleCanadianInstitutionsWebViewViewController.swift; sourceTree = "<group>"; };
+		EA26088C2125DCF600461AD5 /* OINPEJORequirementsMetbyOntarioEmployerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJORequirementsMetbyOntarioEmployerViewController.swift; sourceTree = "<group>"; };
+		EA26088E2125DF8B00461AD5 /* OINPEJOIntentiontoResideInOntarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJOIntentiontoResideInOntarioViewController.swift; sourceTree = "<group>"; };
+		EA2608902125E6CF00461AD5 /* OINPEJOProcessingTimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJOProcessingTimesViewController.swift; sourceTree = "<group>"; };
+		EA2608922125E83300461AD5 /* OINPEJODocumentChecklisttoFileAnApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJODocumentChecklisttoFileAnApplicationViewController.swift; sourceTree = "<group>"; };
+		EA2608942125EAA400461AD5 /* OINPEJOCheckingApplicationStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJOCheckingApplicationStatusViewController.swift; sourceTree = "<group>"; };
+		EA2608962125EF2300461AD5 /* OINPEJORegisteringAndSubmittingAnApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJORegisteringAndSubmittingAnApplicationViewController.swift; sourceTree = "<group>"; };
+		EA3B9A4A2122819200C5B8A6 /* Students Ontario PR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Students Ontario PR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3B9A4D2122819200C5B8A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA3B9A4F2122819200C5B8A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA3B9A522122819200C5B8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA3B9A542122819300C5B8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3B9A572122819300C5B8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA3B9A592122819300C5B8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B9A812123AD8000C5B8A6 /* OINPMastersGraduateStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMastersGraduateStreamViewController.swift; sourceTree = "<group>"; };
+		EA3B9A832123B60900C5B8A6 /* OINPMastersGraduateStreamAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMastersGraduateStreamAboutViewController.swift; sourceTree = "<group>"; };
+		EA3B9A852123C88B00C5B8A6 /* OINPMasterGraduateStreamDocumentChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMasterGraduateStreamDocumentChecklistViewController.swift; sourceTree = "<group>"; };
+		EA3B9A882123CB6D00C5B8A6 /* OINPMastersGraduateStreamRegisteringandSubmittingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMastersGraduateStreamRegisteringandSubmittingViewController.swift; sourceTree = "<group>"; };
+		EA3B9A8E2123D8C100C5B8A6 /* OINPMGSProcessingTimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSProcessingTimesViewController.swift; sourceTree = "<group>"; };
+		EA3B9A902123EC3F00C5B8A6 /* OINPMGSCheckingApplicationStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSCheckingApplicationStatusViewController.swift; sourceTree = "<group>"; };
+		EA3B9A922123EEFD00C5B8A6 /* OINPMGSDocumentChecklistWebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSDocumentChecklistWebviewViewController.swift; sourceTree = "<group>"; };
+		EA3B9A942124819900C5B8A6 /* OINPMGSEducationalRequirementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSEducationalRequirementViewController.swift; sourceTree = "<group>"; };
+		EA3B9A96212481E500C5B8A6 /* OINPMGSEligibleOntarioInstitutionsWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSEligibleOntarioInstitutionsWebViewViewController.swift; sourceTree = "<group>"; };
+		EA3B9A982124873900C5B8A6 /* OINPMGSLanguageRequirementMinimumScoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSLanguageRequirementMinimumScoresViewController.swift; sourceTree = "<group>"; };
+		EA3B9A9A2124898E00C5B8A6 /* OINPMGSResidencyOntarioandSettlementofFundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSResidencyOntarioandSettlementofFundsViewController.swift; sourceTree = "<group>"; };
+		EA3B9A9C212489F800C5B8A6 /* OINPMGSSettlementofFundsWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSSettlementofFundsWebViewViewController.swift; sourceTree = "<group>"; };
+		EA3B9A9E2124A30900C5B8A6 /* OINPMGSRegisteringandSubmittingAnApplicationWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSRegisteringandSubmittingAnApplicationWebViewViewController.swift; sourceTree = "<group>"; };
+		EA3B9AA02124A38200C5B8A6 /* OINPMGSCheckOINPUpdatesWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSCheckOINPUpdatesWebViewViewController.swift; sourceTree = "<group>"; };
+		EA3B9AA22124A3F400C5B8A6 /* OINPMGSOneKeyLoginToUpdateAndSubmitDocsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSOneKeyLoginToUpdateAndSubmitDocsViewController.swift; sourceTree = "<group>"; };
+		EA3B9AA42124A46A00C5B8A6 /* OINPMGSRegisteringforMastersGraduateStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPMGSRegisteringforMastersGraduateStreamViewController.swift; sourceTree = "<group>"; };
+		EAAA709B212DCA11009AE681 /* OINPEJOProcedureToRegisterAndSubmitAnApplicationWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJOProcedureToRegisterAndSubmitAnApplicationWebsiteViewController.swift; sourceTree = "<group>"; };
+		EAAA709D212DCD06009AE681 /* CanadianExperienceClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanadianExperienceClassViewController.swift; sourceTree = "<group>"; };
+		EAAA70A0212DD4F2009AE681 /* CECAboutAndRequirementsToQualifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECAboutAndRequirementsToQualifyViewController.swift; sourceTree = "<group>"; };
+		EAAA70A2212DD5D1009AE681 /* CECWorkExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECWorkExperienceViewController.swift; sourceTree = "<group>"; };
+		EAAA70A6212DDB1B009AE681 /* CECWorkExperienceWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECWorkExperienceWebsiteViewController.swift; sourceTree = "<group>"; };
+		EAAA70A8212DDE6F009AE681 /* CECLanguageRequirementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECLanguageRequirementViewController.swift; sourceTree = "<group>"; };
+		EAAA70AA212E4026009AE681 /* CECLanguageRequirementWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECLanguageRequirementWebsiteViewController.swift; sourceTree = "<group>"; };
+		EAAA70AC212E75A1009AE681 /* CECEREducationCredentialAssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECEREducationCredentialAssessmentViewController.swift; sourceTree = "<group>"; };
+		EAAA70AE212F0A1A009AE681 /* CECPrincipalApplicantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECPrincipalApplicantViewController.swift; sourceTree = "<group>"; };
+		EAAA70B0212F19D3009AE681 /* CECAboutAndRequirementsToQualifyOtherRequirementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECAboutAndRequirementsToQualifyOtherRequirementsViewController.swift; sourceTree = "<group>"; };
+		EAAA70B2212F1BDC009AE681 /* CECOtherRequirementsWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECOtherRequirementsWebsiteViewController.swift; sourceTree = "<group>"; };
+		EAAA70B4212F2BFF009AE681 /* CECDocumentChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECDocumentChecklistViewController.swift; sourceTree = "<group>"; };
+		EAAA70B6212F2FC8009AE681 /* CECSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift; sourceTree = "<group>"; };
+		EAAA70B8212F317A009AE681 /* CECProcessingTimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CECProcessingTimesViewController.swift; sourceTree = "<group>"; };
+		EAAA70BA212F6EFF009AE681 /* FederalSkilledWorkerProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FederalSkilledWorkerProgramViewController.swift; sourceTree = "<group>"; };
+		EAAA70BD212F73BA009AE681 /* FSWRequirementsToQualifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWRequirementsToQualifyViewController.swift; sourceTree = "<group>"; };
+		EAAA70BF212F7738009AE681 /* FSWSkilledWorkExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWSkilledWorkExperienceViewController.swift; sourceTree = "<group>"; };
+		EAAA70C1212F77B4009AE681 /* FSWSkilledWorkExperienceWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWSkilledWorkExperienceWebsiteViewController.swift; sourceTree = "<group>"; };
+		EAAA70C3212F7A78009AE681 /* FSWLanguageRequirementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWLanguageRequirementViewController.swift; sourceTree = "<group>"; };
+		EAAA70C5212F7BB6009AE681 /* FSWLanguageRequirementWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWLanguageRequirementWebsiteViewController.swift; sourceTree = "<group>"; };
+		EAAA70C7212F7D61009AE681 /* FSWEducationRequirementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWEducationRequirementViewController.swift; sourceTree = "<group>"; };
+		EAAA70C9212F7EAB009AE681 /* FSWEducationRequirementWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWEducationRequirementWebsiteViewController.swift; sourceTree = "<group>"; };
+		EAAA70CB212F7FE1009AE681 /* FSWSelectionFactorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWSelectionFactorsViewController.swift; sourceTree = "<group>"; };
+		EAAA70CD212F83DF009AE681 /* FSWPrincipalApplicantWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWPrincipalApplicantWebsiteViewController.swift; sourceTree = "<group>"; };
+		EAAA70CF212F8516009AE681 /* FSWProofOfFundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWProofOfFundsViewController.swift; sourceTree = "<group>"; };
+		EAAA70D1212F86D0009AE681 /* FSWDocumentChecklistToFileAnApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWDocumentChecklistToFileAnApplicationViewController.swift; sourceTree = "<group>"; };
+		EAAA70D3212F8829009AE681 /* FSWSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift; sourceTree = "<group>"; };
+		EAAA70D5212F891A009AE681 /* FSWApplicationProcessingTimesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSWApplicationProcessingTimesViewController.swift; sourceTree = "<group>"; };
+		EAAA70D7213060C7009AE681 /* Students Ontario PR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Students Ontario PR.entitlements"; sourceTree = "<group>"; };
+		EAAB25B1212DB3C70084AE0E /* OINPEJOLegalStatusOfApplicantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OINPEJOLegalStatusOfApplicantViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3B9A472122819200C5B8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2608852125CB8500461AD5 /* OINP Employer Job Offer */ = {
+			isa = PBXGroup;
+			children = (
+				EA2608832125CB7D00461AD5 /* OINPEmployerJobOfferViewController.swift */,
+				EA26088A2125D47800461AD5 /* OINPEJOEligibleCanadianInstitutionsWebViewViewController.swift */,
+				EA2608862125CDA900461AD5 /* OINPEJOAboutandRequirementstoQualifyViewController.swift */,
+				EA2608882125D3AB00461AD5 /* OINPEJOEducationalRequirementViewController.swift */,
+				EA26088C2125DCF600461AD5 /* OINPEJORequirementsMetbyOntarioEmployerViewController.swift */,
+				EA26088E2125DF8B00461AD5 /* OINPEJOIntentiontoResideInOntarioViewController.swift */,
+				EA2608902125E6CF00461AD5 /* OINPEJOProcessingTimesViewController.swift */,
+				EA2608922125E83300461AD5 /* OINPEJODocumentChecklisttoFileAnApplicationViewController.swift */,
+				EA2608942125EAA400461AD5 /* OINPEJOCheckingApplicationStatusViewController.swift */,
+				EA2608962125EF2300461AD5 /* OINPEJORegisteringAndSubmittingAnApplicationViewController.swift */,
+				EAAB25B1212DB3C70084AE0E /* OINPEJOLegalStatusOfApplicantViewController.swift */,
+				EAAA709B212DCA11009AE681 /* OINPEJOProcedureToRegisterAndSubmitAnApplicationWebsiteViewController.swift */,
+			);
+			path = "OINP Employer Job Offer";
+			sourceTree = "<group>";
+		};
+		EA3B9A412122819200C5B8A6 = {
+			isa = PBXGroup;
+			children = (
+				EA3B9A4C2122819200C5B8A6 /* Students Ontario PR */,
+				EA3B9A4B2122819200C5B8A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3B9A4B2122819200C5B8A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B9A4A2122819200C5B8A6 /* Students Ontario PR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3B9A4C2122819200C5B8A6 /* Students Ontario PR */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA70D7213060C7009AE681 /* Students Ontario PR.entitlements */,
+				EA3B9A4D2122819200C5B8A6 /* AppDelegate.swift */,
+				EA3B9A4F2122819200C5B8A6 /* ViewController.swift */,
+				EA3B9A512122819200C5B8A6 /* Main.storyboard */,
+				EAAA70BC212F72B2009AE681 /* Federal Skilled Worker Program */,
+				EAAA709F212DCD0C009AE681 /* Candian Experience Class */,
+				EA2608852125CB8500461AD5 /* OINP Employer Job Offer */,
+				EA3B9A872123C8A100C5B8A6 /* OINP Masters Graduate Stream */,
+				EA3B9A542122819300C5B8A6 /* Assets.xcassets */,
+				EA3B9A562122819300C5B8A6 /* LaunchScreen.storyboard */,
+				EA3B9A592122819300C5B8A6 /* Info.plist */,
+			);
+			path = "Students Ontario PR";
+			sourceTree = "<group>";
+		};
+		EA3B9A872123C8A100C5B8A6 /* OINP Masters Graduate Stream */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B9A852123C88B00C5B8A6 /* OINPMasterGraduateStreamDocumentChecklistViewController.swift */,
+				EA3B9A832123B60900C5B8A6 /* OINPMastersGraduateStreamAboutViewController.swift */,
+				EA3B9A812123AD8000C5B8A6 /* OINPMastersGraduateStreamViewController.swift */,
+				EA3B9A882123CB6D00C5B8A6 /* OINPMastersGraduateStreamRegisteringandSubmittingViewController.swift */,
+				EA3B9A8E2123D8C100C5B8A6 /* OINPMGSProcessingTimesViewController.swift */,
+				EA3B9A902123EC3F00C5B8A6 /* OINPMGSCheckingApplicationStatusViewController.swift */,
+				EA3B9A922123EEFD00C5B8A6 /* OINPMGSDocumentChecklistWebviewViewController.swift */,
+				EA3B9A942124819900C5B8A6 /* OINPMGSEducationalRequirementViewController.swift */,
+				EA3B9A96212481E500C5B8A6 /* OINPMGSEligibleOntarioInstitutionsWebViewViewController.swift */,
+				EA3B9A982124873900C5B8A6 /* OINPMGSLanguageRequirementMinimumScoresViewController.swift */,
+				EA3B9A9A2124898E00C5B8A6 /* OINPMGSResidencyOntarioandSettlementofFundsViewController.swift */,
+				EA3B9A9C212489F800C5B8A6 /* OINPMGSSettlementofFundsWebViewViewController.swift */,
+				EA3B9A9E2124A30900C5B8A6 /* OINPMGSRegisteringandSubmittingAnApplicationWebViewViewController.swift */,
+				EA3B9AA02124A38200C5B8A6 /* OINPMGSCheckOINPUpdatesWebViewViewController.swift */,
+				EA3B9AA22124A3F400C5B8A6 /* OINPMGSOneKeyLoginToUpdateAndSubmitDocsViewController.swift */,
+				EA3B9AA42124A46A00C5B8A6 /* OINPMGSRegisteringforMastersGraduateStreamViewController.swift */,
+			);
+			path = "OINP Masters Graduate Stream";
+			sourceTree = "<group>";
+		};
+		EAAA709F212DCD0C009AE681 /* Candian Experience Class */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA709D212DCD06009AE681 /* CanadianExperienceClassViewController.swift */,
+				EAAA70A0212DD4F2009AE681 /* CECAboutAndRequirementsToQualifyViewController.swift */,
+				EAAA70A2212DD5D1009AE681 /* CECWorkExperienceViewController.swift */,
+				EAAA70A6212DDB1B009AE681 /* CECWorkExperienceWebsiteViewController.swift */,
+				EAAA70A8212DDE6F009AE681 /* CECLanguageRequirementViewController.swift */,
+				EAAA70AA212E4026009AE681 /* CECLanguageRequirementWebsiteViewController.swift */,
+				EAAA70AC212E75A1009AE681 /* CECEREducationCredentialAssessmentViewController.swift */,
+				EAAA70AE212F0A1A009AE681 /* CECPrincipalApplicantViewController.swift */,
+				EAAA70B0212F19D3009AE681 /* CECAboutAndRequirementsToQualifyOtherRequirementsViewController.swift */,
+				EAAA70B2212F1BDC009AE681 /* CECOtherRequirementsWebsiteViewController.swift */,
+				EAAA70B4212F2BFF009AE681 /* CECDocumentChecklistViewController.swift */,
+				EAAA70B6212F2FC8009AE681 /* CECSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift */,
+				EAAA70B8212F317A009AE681 /* CECProcessingTimesViewController.swift */,
+			);
+			path = "Candian Experience Class";
+			sourceTree = "<group>";
+		};
+		EAAA70BC212F72B2009AE681 /* Federal Skilled Worker Program */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA70BA212F6EFF009AE681 /* FederalSkilledWorkerProgramViewController.swift */,
+				EAAA70BD212F73BA009AE681 /* FSWRequirementsToQualifyViewController.swift */,
+				EAAA70BF212F7738009AE681 /* FSWSkilledWorkExperienceViewController.swift */,
+				EAAA70C1212F77B4009AE681 /* FSWSkilledWorkExperienceWebsiteViewController.swift */,
+				EAAA70C3212F7A78009AE681 /* FSWLanguageRequirementViewController.swift */,
+				EAAA70C5212F7BB6009AE681 /* FSWLanguageRequirementWebsiteViewController.swift */,
+				EAAA70C7212F7D61009AE681 /* FSWEducationRequirementViewController.swift */,
+				EAAA70C9212F7EAB009AE681 /* FSWEducationRequirementWebsiteViewController.swift */,
+				EAAA70CB212F7FE1009AE681 /* FSWSelectionFactorsViewController.swift */,
+				EAAA70CD212F83DF009AE681 /* FSWPrincipalApplicantWebsiteViewController.swift */,
+				EAAA70CF212F8516009AE681 /* FSWProofOfFundsViewController.swift */,
+				EAAA70D1212F86D0009AE681 /* FSWDocumentChecklistToFileAnApplicationViewController.swift */,
+				EAAA70D3212F8829009AE681 /* FSWSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift */,
+				EAAA70D5212F891A009AE681 /* FSWApplicationProcessingTimesViewController.swift */,
+			);
+			path = "Federal Skilled Worker Program";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3B9A492122819200C5B8A6 /* Students Ontario PR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3B9A5C2122819300C5B8A6 /* Build configuration list for PBXNativeTarget "Students Ontario PR" */;
+			buildPhases = (
+				EA3B9A462122819200C5B8A6 /* Sources */,
+				EA3B9A472122819200C5B8A6 /* Frameworks */,
+				EA3B9A482122819200C5B8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Students Ontario PR";
+			productName = "Students Ontario PR";
+			productReference = EA3B9A4A2122819200C5B8A6 /* Students Ontario PR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3B9A422122819200C5B8A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Akshay Ravi";
+				TargetAttributes = {
+					EA3B9A492122819200C5B8A6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EA3B9A452122819200C5B8A6 /* Build configuration list for PBXProject "Students Ontario PR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3B9A412122819200C5B8A6;
+			productRefGroup = EA3B9A4B2122819200C5B8A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3B9A492122819200C5B8A6 /* Students Ontario PR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3B9A482122819200C5B8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3B9A582122819300C5B8A6 /* LaunchScreen.storyboard in Resources */,
+				EA3B9A552122819300C5B8A6 /* Assets.xcassets in Resources */,
+				EA3B9A532122819200C5B8A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3B9A462122819200C5B8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAA70D2212F86D0009AE681 /* FSWDocumentChecklistToFileAnApplicationViewController.swift in Sources */,
+				EA26088D2125DCF600461AD5 /* OINPEJORequirementsMetbyOntarioEmployerViewController.swift in Sources */,
+				EA3B9AA32124A3F400C5B8A6 /* OINPMGSOneKeyLoginToUpdateAndSubmitDocsViewController.swift in Sources */,
+				EA2608842125CB7D00461AD5 /* OINPEmployerJobOfferViewController.swift in Sources */,
+				EAAA70CA212F7EAB009AE681 /* FSWEducationRequirementWebsiteViewController.swift in Sources */,
+				EAAA70B7212F2FC8009AE681 /* CECSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift in Sources */,
+				EAAA70B9212F317A009AE681 /* CECProcessingTimesViewController.swift in Sources */,
+				EA2608892125D3AB00461AD5 /* OINPEJOEducationalRequirementViewController.swift in Sources */,
+				EAAA70BB212F6EFF009AE681 /* FederalSkilledWorkerProgramViewController.swift in Sources */,
+				EA3B9A97212481E500C5B8A6 /* OINPMGSEligibleOntarioInstitutionsWebViewViewController.swift in Sources */,
+				EAAA70B3212F1BDC009AE681 /* CECOtherRequirementsWebsiteViewController.swift in Sources */,
+				EAAA70D0212F8516009AE681 /* FSWProofOfFundsViewController.swift in Sources */,
+				EAAA70D4212F8829009AE681 /* FSWSubmittingAnApplicationAndCheckingApplicationStatusViewController.swift in Sources */,
+				EAAA70C0212F7738009AE681 /* FSWSkilledWorkExperienceViewController.swift in Sources */,
+				EAAA709C212DCA11009AE681 /* OINPEJOProcedureToRegisterAndSubmitAnApplicationWebsiteViewController.swift in Sources */,
+				EA26088B2125D47800461AD5 /* OINPEJOEligibleCanadianInstitutionsWebViewViewController.swift in Sources */,
+				EA3B9A502122819200C5B8A6 /* ViewController.swift in Sources */,
+				EAAA70B5212F2BFF009AE681 /* CECDocumentChecklistViewController.swift in Sources */,
+				EA3B9AA52124A46A00C5B8A6 /* OINPMGSRegisteringforMastersGraduateStreamViewController.swift in Sources */,
+				EAAA70B1212F19D3009AE681 /* CECAboutAndRequirementsToQualifyOtherRequirementsViewController.swift in Sources */,
+				EAAA70A1212DD4F2009AE681 /* CECAboutAndRequirementsToQualifyViewController.swift in Sources */,
+				EA2608932125E83300461AD5 /* OINPEJODocumentChecklisttoFileAnApplicationViewController.swift in Sources */,
+				EA3B9A8F2123D8C100C5B8A6 /* OINPMGSProcessingTimesViewController.swift in Sources */,
+				EAAA70A3212DD5D1009AE681 /* CECWorkExperienceViewController.swift in Sources */,
+				EA2608872125CDA900461AD5 /* OINPEJOAboutandRequirementstoQualifyViewController.swift in Sources */,
+				EA3B9A9D212489F800C5B8A6 /* OINPMGSSettlementofFundsWebViewViewController.swift in Sources */,
+				EA3B9A842123B60900C5B8A6 /* OINPMastersGraduateStreamAboutViewController.swift in Sources */,
+				EA2608952125EAA400461AD5 /* OINPEJOCheckingApplicationStatusViewController.swift in Sources */,
+				EA3B9A822123AD8000C5B8A6 /* OINPMastersGraduateStreamViewController.swift in Sources */,
+				EA26088F2125DF8B00461AD5 /* OINPEJOIntentiontoResideInOntarioViewController.swift in Sources */,
+				EAAA70BE212F73BA009AE681 /* FSWRequirementsToQualifyViewController.swift in Sources */,
+				EAAA70D6212F891A009AE681 /* FSWApplicationProcessingTimesViewController.swift in Sources */,
+				EA3B9A892123CB6D00C5B8A6 /* OINPMastersGraduateStreamRegisteringandSubmittingViewController.swift in Sources */,
+				EAAA70CC212F7FE1009AE681 /* FSWSelectionFactorsViewController.swift in Sources */,
+				EAAA70C6212F7BB6009AE681 /* FSWLanguageRequirementWebsiteViewController.swift in Sources */,
+				EA2608912125E6CF00461AD5 /* OINPEJOProcessingTimesViewController.swift in Sources */,
+				EA2608972125EF2300461AD5 /* OINPEJORegisteringAndSubmittingAnApplicationViewController.swift in Sources */,
+				EA3B9A992124873900C5B8A6 /* OINPMGSLanguageRequirementMinimumScoresViewController.swift in Sources */,
+				EAAB25B2212DB3C70084AE0E /* OINPEJOLegalStatusOfApplicantViewController.swift in Sources */,
+				EAAA70CE212F83DF009AE681 /* FSWPrincipalApplicantWebsiteViewController.swift in Sources */,
+				EA3B9A932123EEFD00C5B8A6 /* OINPMGSDocumentChecklistWebviewViewController.swift in Sources */,
+				EAAA70AD212E75A1009AE681 /* CECEREducationCredentialAssessmentViewController.swift in Sources */,
+				EA3B9A4E2122819200C5B8A6 /* AppDelegate.swift in Sources */,
+				EA3B9A862123C88B00C5B8A6 /* OINPMasterGraduateStreamDocumentChecklistViewController.swift in Sources */,
+				EA3B9A952124819900C5B8A6 /* OINPMGSEducationalRequirementViewController.swift in Sources */,
+				EA3B9AA12124A38200C5B8A6 /* OINPMGSCheckOINPUpdatesWebViewViewController.swift in Sources */,
+				EAAA70AF212F0A1A009AE681 /* CECPrincipalApplicantViewController.swift in Sources */,
+				EAAA70C8212F7D61009AE681 /* FSWEducationRequirementViewController.swift in Sources */,
+				EAAA70A9212DDE6F009AE681 /* CECLanguageRequirementViewController.swift in Sources */,
+				EAAA70AB212E4026009AE681 /* CECLanguageRequirementWebsiteViewController.swift in Sources */,
+				EAAA70C4212F7A78009AE681 /* FSWLanguageRequirementViewController.swift in Sources */,
+				EA3B9A912123EC3F00C5B8A6 /* OINPMGSCheckingApplicationStatusViewController.swift in Sources */,
+				EA3B9A9B2124898E00C5B8A6 /* OINPMGSResidencyOntarioandSettlementofFundsViewController.swift in Sources */,
+				EA3B9A9F2124A30900C5B8A6 /* OINPMGSRegisteringandSubmittingAnApplicationWebViewViewController.swift in Sources */,
+				EAAA709E212DCD06009AE681 /* CanadianExperienceClassViewController.swift in Sources */,
+				EAAA70A7212DDB1B009AE681 /* CECWorkExperienceWebsiteViewController.swift in Sources */,
+				EAAA70C2212F77B4009AE681 /* FSWSkilledWorkExperienceWebsiteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA3B9A512122819200C5B8A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3B9A522122819200C5B8A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA3B9A562122819300C5B8A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3B9A572122819300C5B8A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA3B9A5A2122819300C5B8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3B9A5B2122819300C5B8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3B9A5D2122819300C5B8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3884UFA3ZF;
+				INFOPLIST_FILE = "Students Ontario PR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AkshayRavi.Students-Ontario-PR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA3B9A5E2122819300C5B8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3884UFA3ZF;
+				INFOPLIST_FILE = "Students Ontario PR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AkshayRavi.Students-Ontario-PR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3B9A452122819200C5B8A6 /* Build configuration list for PBXProject "Students Ontario PR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B9A5A2122819300C5B8A6 /* Debug */,
+				EA3B9A5B2122819300C5B8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3B9A5C2122819300C5B8A6 /* Build configuration list for PBXNativeTarget "Students Ontario PR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3B9A5D2122819300C5B8A6 /* Debug */,
+				EA3B9A5E2122819300C5B8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3B9A422122819200C5B8A6 /* Project object */;
+}
